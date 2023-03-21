@@ -1,0 +1,43 @@
+/* Background */ 
+
+#header{
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 2;
+    min-height:100vh;
+}
+
+#header-bg{
+    position: absolute;
+    width: 100%;
+    height:80%;
+    z-index: -1;
+    background: rgb(11, 93, 170);
+    background: linear-gradient(140deg, rgb(11, 93, 170) 0%, rgb(18, 141, 255) 72%);
+    clip-path: polygon(0% 0%,100% 0%,100% 75%,0% 100%);
+}
+
+/* Profile Image */
+
+#profileWrap{
+    position: relative;
+    margin: 10%;
+    z-index: 1;
+    text-align: left;
+}
+
+#profile{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px 2px black;
+    
+}
+#name{
+    position: absolute;
+    bottom: 0;
+    font-size: 90px;
+    color: white;
+    text-shadow: -7px 7px 12px black;
+    padding-left:25px;
+    line-height: 1.25;
+}
