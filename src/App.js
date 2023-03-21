@@ -2,10 +2,16 @@
 import './App.css';
 import "./reset.css"
 
+import Header from './components/header';
+import Main from './components/main';
+import Footer from './components/footer';
+
 function App() {
   return (
     <div className="App">
-      Portfolio
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   );
 }
