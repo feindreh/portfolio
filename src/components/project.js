@@ -3,16 +3,17 @@ import { mdiGithub,mdiExport } from '@mdi/js';
 
 
 function Project(props){
-    console.log(props)
-    const {name,image,text,ghLink,liveLink}= props.project
 
-    console.log(name)
+    const {name,image,text,ghLink,liveLink}= props.project
+ 
     return(
         <div className="project">
             <div className = "projectWrap">
-                <img className ="screenshot" src={image} alt="Screenshot"></img>
+                    <img className ="screenshot" src={image} alt="Screenshot"></img>
             </div>
+
             <div className ="projectInfo">
+
                 <div class="projectNameWrap">
                     <div className = "projectName">{name}</div>
                     <div className="iconWrap">
@@ -24,8 +25,13 @@ function Project(props){
                         </a>
                     </div>
                 </div>
-                <div className = "projectText">{text}</div>
+
+                <div className = "projectText">
+                    {text}
+                </div>
+
             </div>
+
         </div>
     )
 }
