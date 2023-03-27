@@ -3,7 +3,6 @@
 
 #header{
     position: relative;
-    margin-bottom: 20px;
     z-index: 2;
     min-height:100vh;
 }
@@ -18,42 +17,32 @@
     clip-path: polygon(0% 0%,100% 0%,100% 75%,0% 100%);
 }
 
-/* Profile Image */
+#headerContent{
+    padding:calc(var(--midtext)*2);
+    display:flex;
+    align-items: center;
+}
 
-#profileWrap{
+#profileImgWrap{
     position: relative;
-    margin: 10%;
-    z-index: 1;
+   
+    height:fit-content;
+}
+#profileImg{
+    width: auto;
+    box-shadow: 0px 0px 2px 1px rgb(100, 100, 100);
+}
+
+#profileText{
+    padding:calc(var(--midtext)*2);
+    z-index: -1;
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px rgb(100, 100, 100);
+    height:fit-content;
+}
+
+#profileText h1{
     text-align: left;
-}
-
-#profile{
-    width: 100%;
-    height: auto;
-    box-shadow: 0px 0px 10px 2px black;
-    
-}
-#name{
-    position: absolute;
-    bottom: 0;
-    font-size: 50px;
-    color: white;
-    text-shadow: -7px 7px 12px black;
-    padding-left:25px;
-    line-height: 1.25;
-}
-
-
-/*Profile Text*/
-#profile-text{
-    margin:10%;
-    text-align: left;
-    font-size:30px;
-}
-
-
-
-#profile-text p{
-    color:grey
 }
 
