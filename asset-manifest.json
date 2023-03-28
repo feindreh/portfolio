@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b9ceb847.css",
+    "main.js": "/portfolio/static/js/main.2bf85d62.js",
+    "static/media/mapguess.png": "/portfolio/static/media/mapguess.5e5bd20dfcc12be2e563.png",
+    "static/media/quizz.png": "/portfolio/static/media/quizz.25b256617469be52db51.png",
+    "static/media/carusel.png": "/portfolio/static/media/carusel.c6e384216153e87e972f.png",
+    "static/media/memorycard.png": "/portfolio/static/media/memorycard.e62f70189683d7ee65cb.png",
+    "static/media/profile-placeholder.jpeg": "/portfolio/static/media/profile-placeholder.7a1046d8a51e52b2ec89.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.b9ceb847.css.map": "/portfolio/static/css/main.b9ceb847.css.map",
+    "main.2bf85d62.js.map": "/portfolio/static/js/main.2bf85d62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9ceb847.css",
+    "static/js/main.2bf85d62.js"
+  ]
+}
